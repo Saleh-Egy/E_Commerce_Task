@@ -1,0 +1,92 @@
+/* -------Hedaer--------- */
+
+.Top-Headr-Part{
+    background-color: orangered;
+}
+
+.main {
+width: 50%;
+margin: 50px auto;
+}
+
+.has-search .form-control {
+padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+position: absolute;
+z-index: 2;
+display: block;
+width: 2.375rem;
+height: 3rem;
+line-height: 2.375rem;
+text-align: center;
+pointer-events: none;
+color: orangered;
+}
+/* ----------- Featers- Section --------- */
+.feature-body {
+    position: relative;
+}
+.feature-img{
+    position: absolute;
+    top: -50px;
+    left: 30%;
+}
+/* ------ Progress Card ------- */
+.owl-nav{
+    position: absolute;
+    top: 0px;
+  }
+
+  .prog-card-img{
+      background-image: url(../img/card-img.png);
+      height: 30vh;
+      position: relative;
+  }
+
+  .sale{
+      background-color: orangered;
+      width: 60px;
+      height: 60px;
+      position: absolute;
+      right: 15px;
+  }
+  .sale h4{
+      position: absolute;
+      left: 15px;
+      top: 20px;
+      font-size: small; 
+  }
+  .progress-card-title{
+      color: orangered;
+  }
+  .progress-bar{
+      background-color: orangered; 
+  }
+  .add-button{
+      border: 1px solid orangered;
+      color: orangered;
+  }
+
+/*------- Small Card------ */
+.small-card-img{
+    background-image: url(../img/card-img.png);
+    height: 100px;
+}
+.price{
+    color: orangered;
+    font-weight: bold;
+}
+.star-container{
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+/* ------Footer ------- */
+
+.main-color{
+    background-color: #FF7020;
+}
+.maincolor,.social-icon i:hover{
+    color: #FF7020;
+}
